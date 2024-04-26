@@ -12842,7 +12842,6 @@ game:GetService("StarterGui"):SetCore("SendNotification",{ 	Title = "Rc7",
 Text = "Created by tyler",
 
 })
-script.Parent.MouseButton1Down:Connect(function()
 		local function write(text,object)
 			if object:IsA("Hint") == true then
 				local count = object:FindFirstChild("Count")
